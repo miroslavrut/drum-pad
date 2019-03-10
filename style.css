@@ -5,9 +5,8 @@ html, body {
 }
 
 html{
-    background: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/drumsticks-and-drums-in-black-and-white-rebecca-brittain.jpg) no-repeat;
-
-    background-size: 100%;
+    background: url(./img/background.jpg) no-repeat;   
+    background-size: cover;
 }
 
 .btn-container { 
@@ -40,7 +39,7 @@ html{
     background: rgba(0,0,0,0.1);
     text-shadow: 0 0 .5rem black;
     color: white;
-    transition: all .07s ease;
+    transition: all .1s ease;
 }
 
 .playing {
