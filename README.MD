@@ -1,1 +1,1 @@
-https://morporkk.github.io/drum-pad
+https://morporkk.github.io/drum-pad/
