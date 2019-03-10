@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/drumsticks-and-drums-in-black-and-white-rebecca-brittain.jpg) no-repeat;
+
+    background-size: 100%;
+}
+
+.btn-container { 
+    padding-top: 15%;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(3,1fr);
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.btn-container > div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.key {
+    border:  0.3rem solid #10592c;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    width: 4rem;
+    text-align: center;
+    background: rgba(0,0,0,0.1);
+    text-shadow: 0 0 .5rem black;
+    color: white;
+    transition: all .07s ease;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #fffb2b;
+    box-shadow: 0 0 1rem #fffb2b;
+  }
+
